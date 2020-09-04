@@ -1,0 +1,36 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.height {
+  height: 100vh;
+}
+
+.title-underline {
+  height: 5px;
+  width: 125px;
+  margin: 0 auto;
+  /* background: blue !important;
+ */
+}
+
+.height-80 {
+  min-height: 100vh;
+}
+
+.about-picture {
+  background: url(../images/1.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+#filler #progress {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1)),
+    url(../images/3.jpg) center/cover no-repeat fixed;
+}
+
+#progress {
+  background-color: blueviolet;
+}
